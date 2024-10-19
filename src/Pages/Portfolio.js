@@ -2,13 +2,6 @@ import React from "react";
 import { Alert, Card, Col, Container, Row } from "react-bootstrap";
 import { projectData } from "../Data";
 export default function Portfolio() {
-  const zoomProps = {
-    width: 500,                    // Width of the image
-    height: 375,                   // Height of the image
-    zoomWidth: 500,             // The image to be zoomed (src path)
-    zoomStyle: 'opacity: 0.7; background-color: grey;',  // Custom zoom styling
-    offset: { vertical: 0, horizontal: 10 },  // Optional, adjusts zoom positioning
-  };
   return (
     <div>
       <Container fluid>
