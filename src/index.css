@@ -7,6 +7,7 @@
   --resume-upper-cards-text: black;
   --nav-toggle-btn-bg: white;
   --nav-toggle-btn-icon-bg: black;
+  --dropDown-border: 3px solid white;
 }
 
 /* [data-theme="dark"] {
@@ -24,6 +25,7 @@
   --resume-upper-cards-text: white;
   --nav-toggle-btn-bg: black;
   --nav-toggle-btn-icon-bg: white;
+  --dropDown-border: 3px solid black;
 }
 
 * {

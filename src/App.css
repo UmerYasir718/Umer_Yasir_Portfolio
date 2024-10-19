@@ -54,7 +54,12 @@ nav {
   color: var(--link_color);
   font-weight: bold;
   border-bottom: 4px solid;
+  padding: 5px;
+  border-radius: 5px;
   border-bottom-color: linear-gradient(to right, #0ea5e9, #db2777);
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
 }
 
 .nav-btn {
@@ -103,6 +108,7 @@ nav {
 .nav-dropDown {
   background: var(--body_background);
   color: var(--body_color);
+  border: var(--dropDown-border);
 }
 
 .main-container {
@@ -143,9 +149,9 @@ nav {
 }
 
 .introduction-line {
-  font-weight: normal;
+  /* font-weight: normal; */
   color: var(--body_color);
-  font-size: calc(8px + 1vw);
+  font-size: calc(9px + 1vw);
   line-height: 35px;
 }
 
@@ -219,8 +225,10 @@ nav {
 
 .card-about:hover {
   cursor: pointer;
-  rotate: x 25deg;
-  rotate: y 25deg;
+  rotate: x 30deg;
+  rotate: y 60deg;
+  rotate: z 5deg;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
   /* Rotate the card by 10 degrees along the X-axis */
 
 }
@@ -572,6 +580,11 @@ nav {
 
 }
 
+.techCards :hover {
+  cursor: pointer;
+  rotate: x 360deg;
+}
+
 .techCards img {
   /* background: var(--resume-upper-cards); */
   background-color: white;
@@ -579,9 +592,10 @@ nav {
   width: 130px;
   height: auto;
   padding: 20px;
-  border: var(--resume-border);
+  /* border: var(--resume-border); */
   box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
   box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset, rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;
+  box-shadow: rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px, rgba(17, 17, 26, 0.1) 0px 24px 80px;
 
 }
 
@@ -600,9 +614,10 @@ nav {
   width: 130px;
   height: auto;
   padding: 20px;
-  border: var(--resume-border);
+  /* border: var(--resume-border); */
   box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
   box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset, rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;
+  box-shadow: rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px, rgba(17, 17, 26, 0.1) 0px 24px 80px;
 }
 
 

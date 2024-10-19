@@ -12,7 +12,7 @@ export default function About() {
           <Col md={10}>
             <h1 className='about-text-box'>
               <div className='about-main-heading'>𝐎𝐯𝐞𝐫𝐯𝐢𝐞𝐰</div>
-              <div className='introduction-line'>
+              <div className='introduction-line my-3'>
                 𝐈'𝐦 𝐚 𝐬𝐤𝐢𝐥𝐥𝐞𝐝 𝐬𝐨𝐟𝐭𝐰𝐚𝐫𝐞 𝐝𝐞𝐯𝐞𝐥𝐨𝐩𝐞𝐫 𝐰𝐢𝐭𝐡 𝐞𝐱𝐩𝐞𝐫𝐢𝐞𝐧𝐜𝐞 𝐢𝐧 𝐓𝐲𝐩𝐞𝐒𝐜𝐫𝐢𝐩𝐭
                 𝐚𝐧𝐝 𝐉𝐚𝐯𝐚𝐒𝐜𝐫𝐢𝐩𝐭, 𝐚𝐧𝐝 𝐞𝐱𝐩𝐞𝐫𝐭 𝐢𝐬𝐞 𝐢𝐧 𝐟𝐫𝐚𝐦𝐞𝐰𝐨𝐫𝐤𝐬 𝐥𝐢𝐤𝐞 𝐑𝐞𝐚𝐜𝐭,
                 𝐍𝐨𝐝𝐞.𝐣𝐬, 𝐚𝐧𝐝 𝐓𝐡𝐫𝐞𝐞.𝐣𝐬. 𝐈'𝐦 𝐚 𝐪𝐮𝐢𝐜𝐤 𝐥𝐞𝐚𝐫𝐧𝐞𝐫 𝐚𝐧𝐝 𝐜𝐨𝐥𝐥𝐚𝐛𝐨𝐫𝐚𝐭𝐞

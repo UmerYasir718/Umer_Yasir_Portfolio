@@ -149,7 +149,7 @@ export default function MyResume() {
         <div>
           {activeSection === "Certificates" && (
             <div>
-              <h3 className='section-heading'>Certificates</h3>
+              <h3 className='section-heading my-3'>Certificates</h3>
               <Container className='my-4'>
                 <Row className='gap-2 d-flex justify-content-center align-content-center'>
                   <Col md={6} sm={12} lg={5}>
@@ -239,7 +239,7 @@ export default function MyResume() {
           )}
           {activeSection === "Skills" && (
             <div>
-              <h3 className='section-heading'>𝐓𝐞𝐜𝐡𝐧𝐨𝐥𝐨𝐠𝐢𝐞𝐬</h3>
+              <h3 className='section-heading my-3'>𝐓𝐞𝐜𝐡𝐧𝐨𝐥𝐨𝐠𝐢𝐞𝐬</h3>
               <Container>
                 <Row className='my-3'>
                   {techData.map((tech) => (
@@ -262,7 +262,7 @@ export default function MyResume() {
           )}
           {activeSection === "Tools" && (
             <div>
-              <h3 className='section-heading'>𝐓𝐨𝐨𝐥𝐬</h3>
+              <h3 className='section-heading my-3'>𝐓𝐨𝐨𝐥𝐬</h3>
               <Container>
                 <Row className='my-3'>
                   {toolsData.map((tool) => (
