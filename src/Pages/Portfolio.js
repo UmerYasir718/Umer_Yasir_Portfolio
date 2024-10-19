@@ -1,11 +1,21 @@
 import React from "react";
-import { Card, Col, Container, Row } from "react-bootstrap";
+import { Alert, Card, Col, Container, Row } from "react-bootstrap";
 import { projectData } from "../Data";
 export default function Portfolio() {
+  const zoomProps = {
+    width: 500,                    // Width of the image
+    height: 375,                   // Height of the image
+    zoomWidth: 500,             // The image to be zoomed (src path)
+    zoomStyle: 'opacity: 0.7; background-color: grey;',  // Custom zoom styling
+    offset: { vertical: 0, horizontal: 10 },  // Optional, adjusts zoom positioning
+  };
   return (
     <div>
-      <Container>
+      <Container fluid>
         <h1 className='portfolio-main-heading mb-3'>Portfolio</h1>
+        <Alert className="d-flex justify-content-center fs-3" style={{ backgroundColor: 'red', color: 'white', fontWeight: 'bold' }}>
+          !!!!!!!!!!!!!!!!!!!!!!!!!!!     Page is under development        !!!!!!!!!!!!!!!!!!!!!!!!!!!
+        </Alert>
         <Row className=''>
           {projectData.map((project) => (
             <Col key={project.id} sm={12} md={6} lg={5} xl={4} className='mb-3'>
@@ -14,7 +24,7 @@ export default function Portfolio() {
                   variant='top'
                   src={project.image}
                   className='card-project-image'
-                  // fluid
+                // fluid
                 />
                 <Card.Body>
                   <Card.Title className='card-project-title'>

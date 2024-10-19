@@ -5,6 +5,8 @@
   --resume-border: 3px solid white;
   --resume-upper-cards: linear-gradient(90deg, #00C9FF 0%, #92FE9D 100%);
   --resume-upper-cards-text: black;
+  --nav-toggle-btn-bg: white;
+  --nav-toggle-btn-icon-bg: black;
 }
 
 /* [data-theme="dark"] {
@@ -20,6 +22,8 @@
   --resume-border: 2px solid navy;
   --resume-upper-cards: linear-gradient(180deg, #4b6cb7 0%, #182848 100%);
   --resume-upper-cards-text: white;
+  --nav-toggle-btn-bg: black;
+  --nav-toggle-btn-icon-bg: white;
 }
 
 * {

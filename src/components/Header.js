@@ -1,12 +1,12 @@
 import React from "react";
-import { Container, Nav, Navbar } from "react-bootstrap";
+import { Container, Dropdown, Nav, Navbar } from "react-bootstrap";
 import { Link, NavLink } from "react-router-dom";
 import DarkMode from "../assets/DarkMode/DarkMode";
 import Logo from "../assets/img/Logo.png";
 
 export default function Header() {
   return (
-    <div>
+    <div className="container-fluid">
       {" "}
       <Navbar
         className=''
@@ -18,7 +18,7 @@ export default function Header() {
         //   padding: "0px",
         // }}
         collapseOnSelect
-        expand='lg'
+        expand='md'
       >
         <Container fluid>
           <Navbar.Brand href='/'>
@@ -30,7 +30,50 @@ export default function Header() {
               alt='React Bootstrap logo'
             />
           </Navbar.Brand>
-          <Navbar.Toggle className='nav-btn ' />
+          <Dropdown className=' d-md-none d-block'
+            key='start'
+            id='dropdown-button-drop-start'
+            drop='start'>
+            <Dropdown.Toggle className='navToggleBtn' id='dropdown-basic'>
+              <i className="bi bi-justify"></i>
+            </Dropdown.Toggle>
+
+            <Dropdown.Menu className="nav-dropDown">
+              <Dropdown.Item>
+                {" "}
+                <NavLink className='nav-item' to='/about'>
+                  About
+                </NavLink>
+              </Dropdown.Item>
+              <Dropdown.Item>
+                {" "}
+                <NavLink className='nav-item' to='/resume'>
+                  Resume
+                </NavLink>
+              </Dropdown.Item>
+              <Dropdown.Item>
+                {" "}
+                <NavLink className='nav-item' to='/portfolio'>
+                  Portfolio
+                </NavLink>
+              </Dropdown.Item>
+              <Dropdown.Item>
+                <NavLink className='nav-item' to='/contact'>
+                  Contact
+                </NavLink>
+              </Dropdown.Item>
+              <Dropdown.Item className="d-flex flex-row">
+                <Link className='nav-item' to=''>
+                  <i className='bi bi-linkedin fs-4'></i>
+                </Link>
+                <Link className='nav-item' to='' target='_blank'>
+                  <i className='bi bi-github fs-4 '></i>
+                </Link>
+              </Dropdown.Item>
+              <DarkMode />
+            </Dropdown.Menu>
+          </Dropdown>
+          {/* <Navbar.Toggle className='nav-btn ' /> */}
           <Navbar.Collapse className='justify-content-end'>
             <Nav className='ms-auto nav-items'>
               <NavLink className='nav-item' to='/about'>

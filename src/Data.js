@@ -47,10 +47,10 @@ const projectData = [
     name: "AI Blog App",
     tech: "React ,NodeJs",
     description:
-      "AI Blog App ON MERN Create blog based on topic and keywords ,secure data of users,mongoose to store data.In addition the Bootstrap,openai,auth0 and stripe are include in it.",
+      "AI Blog App ON MERN Create blog based on topic and keywords.",
     codeLink: "https://code.visualstudio.com/",
     viewLink: "https://code.visualstudio.com/",
-    image: vscode,
+    image: 'https://res.cloudinary.com/dvccsosdc/image/upload/v1706049774/AIBlog_noqybe.gif',
   },
   {
     id: 2,
@@ -59,7 +59,7 @@ const projectData = [
     description: "A powerful IDE for Java and other languages.",
     codeLink: "https://www.jetbrains.com/idea/",
     viewLink: "https://www.jetbrains.com/idea/",
-    image: intellij,
+    image: 'https://res.cloudinary.com/dvccsosdc/image/upload/v1706049776/Store_lulzhg.gif',
   },
   {
     id: 3,
@@ -68,7 +68,7 @@ const projectData = [
     description: "A distributed version control system.",
     codeLink: "https://git-scm.com/",
     viewLink: "https://git-scm.com/",
-    image: git,
+    image: 'https://res.cloudinary.com/dvccsosdc/image/upload/v1706048093/ToDo_List_q9p4dv.gif',
   },
   {
     id: 4,
@@ -77,7 +77,7 @@ const projectData = [
     description: "A platform for version control and collaboration.",
     codeLink: "https://github.com/",
     viewLink: "https://github.com/",
-    image: github,
+    image: 'https://res.cloudinary.com/dvccsosdc/image/upload/v1706048121/Final_project_shhduy.gif',
   },
   {
     id: 5,
@@ -86,7 +86,7 @@ const projectData = [
     description: "A powerful REST API client.",
     codeLink: "https://insomnia.rest/",
     viewLink: "https://insomnia.rest/",
-    image: insomnia,
+    image: 'https://res.cloudinary.com/dvccsosdc/image/upload/v1706048071/conveter_skzidd.gif',
   },
   {
     id: 6,
@@ -95,7 +95,7 @@ const projectData = [
     description: "A platform for API development.",
     codeLink: "https://www.postman.com/",
     viewLink: "https://www.postman.com/",
-    image: postman,
+    image: 'https://res.cloudinary.com/dvccsosdc/image/upload/v1706048093/Portfolio_Interfaces_skjfwr.gif',
   },
   {
     id: 7,
@@ -104,7 +104,7 @@ const projectData = [
     description: "A package manager for JavaScript.",
     codeLink: "https://www.npmjs.com/",
     viewLink: "https://www.npmjs.com/",
-    image: npm,
+    image: 'https://res.cloudinary.com/dvccsosdc/image/upload/v1706048107/Html_zwd1hl.gif',
   },
   {
     id: 8,
@@ -113,7 +113,7 @@ const projectData = [
     description: "A collaborative interface design tool.",
     codeLink: "https://www.figma.com/",
     viewLink: "https://www.figma.com/",
-    image: figma,
+    image: 'https://res.cloudinary.com/dvccsosdc/image/upload/v1706048114/gallery_n87vvo.gif',
   },
 ];
 

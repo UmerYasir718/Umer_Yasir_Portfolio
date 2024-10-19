@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "./DarkMode.css";
 import { ReactComponent as Moon } from "./Moon.svg";
 import { ReactComponent as Sun } from "./Sun.svg";
@@ -13,15 +13,19 @@ const DarkMode = () => {
     localStorage.setItem("selectedTheme", "light");
   };
   const selectedTheme = localStorage.getItem("selectedTheme");
-  if (selectedTheme === "dark") {
-    setDarkMode();
-  } else {
-    setLightMode();
-  }
+  useEffect(() => {
+
+    if (selectedTheme === "dark") {
+      setDarkMode();
+    } else {
+      setLightMode();
+    }
+  }, [selectedTheme]);
   const toggleTheme = (e) => {
     if (e.target.checked) setDarkMode();
     else setLightMode();
   };
+
   return (
     <div className='dark_mode'>
       <input

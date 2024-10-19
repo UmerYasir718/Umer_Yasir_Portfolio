@@ -243,7 +243,7 @@ export default function MyResume() {
               <Container>
                 <Row className='my-3'>
                   {techData.map((tech) => (
-                    <Col key={tech.id} md={2} sm={6} className='mb-3 col-6'>
+                    <Col key={tech.id} md={2} sm={6} className='mb-3 col-6  techCards'  >
                       <OverlayTrigger
                         placement='top'
                         overlay={
@@ -266,7 +266,7 @@ export default function MyResume() {
               <Container>
                 <Row className='my-3'>
                   {toolsData.map((tool) => (
-                    <Col key={tool.id} md={2} sm={6} className='mb-3 col-6'>
+                    <Col key={tool.id} md={2} sm={6} className='mb-3 col-6 toolCards'>
                       <OverlayTrigger
                         placement='top'
                         overlay={
