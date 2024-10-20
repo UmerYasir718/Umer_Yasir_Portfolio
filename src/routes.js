@@ -13,11 +13,12 @@ export default function MainRoutes() {
       <Router>
         <Header />
         <Routes>
-          <Route path='/' element={<Home />} />
-          <Route path='/about' element={<About />} />
-          <Route path='/Resume' element={<MyResume />} />
-          <Route path='/portfolio' element={<Portfolio />} />
-          <Route path='/contact' element={<Contact />} />
+          <Route exact path='/' element={<Home />} />
+          <Route exact path='/about' element={<About />} />
+          <Route exact path='/Resume' element={<MyResume />} />
+          <Route exact path='/portfolio' element={<Portfolio />} />
+          <Route exact path='/contact' element={<Contact />} />
+          <Route element={<Home />} />
         </Routes>
       </Router>
     </div>
