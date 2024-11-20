@@ -9,7 +9,7 @@ export default function Portfolio() {
         <Alert className="d-flex justify-content-center fs-3" style={{ backgroundColor: 'red', color: 'white', fontWeight: 'bold' }}>
           !!!!!!!!!!!!!!!!!!!!!!!!!!!     Page is under development        !!!!!!!!!!!!!!!!!!!!!!!!!!!
         </Alert>
-        <Row className=''>
+        <Row className='' style={{ filter: 'blur(10px)'}}>
           {projectData.map((project) => (
             <Col key={project.id} sm={12} md={6} lg={5} xl={4} className='mb-3'>
               <Card className='card-project'>
