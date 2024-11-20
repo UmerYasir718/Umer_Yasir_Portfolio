@@ -7,7 +7,7 @@ export default function Portfolio() {
       <Container fluid>
         <h1 className='portfolio-main-heading mb-3'>Portfolio</h1>
         <Alert className="d-flex justify-content-center fs-3" style={{ backgroundColor: 'red', color: 'white', fontWeight: 'bold' }}>
-          !!!!!!!!!!!!!!!!!!!!!!!!!!!     Page is under development        !!!!!!!!!!!!!!!!!!!!!!!!!!!
+          Page is under development      
         </Alert>
         <Row className='' style={{ filter: 'blur(10px)'}}>
           {projectData.map((project) => (
