@@ -88,10 +88,10 @@ export default function Header() {
               <NavLink className='nav-item' to='/contact'>
                 Contact
               </NavLink>
-              <Link className='nav-item' to=''>
+              <Link className='nav-item' to='www.linkedin.com/in/umer-yasir' target='_blank'>
                 <i className='bi bi-linkedin fs-4'></i>
               </Link>
-              <Link className='nav-item' to='' target='_blank'>
+              <Link className='nav-item' to='https://github.com/UmerYasir718' target='_blank'>
                 <i className='bi bi-github fs-4 '></i>
               </Link>
               <DarkMode />
