@@ -609,7 +609,7 @@ nav {
 
 .toolCards img {
   /* background: var(--resume-upper-cards); */
-  background-color: white;
+/*   background-color: white; */
   border-radius: 12px;
   width: 130px;
   height: auto;
