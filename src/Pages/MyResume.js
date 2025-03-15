@@ -42,7 +42,7 @@ export default function MyResume() {
                   className="mt-1 mb-3"
                 >
                   <Card.Title className="card-title-resume">
-                    <div className="title">BS Software Engineering</div>
+                    <div className="title mb-2">BS Software Engineering</div>
                     <div className="name">
                       University of Management & Technology
                     </div>
@@ -68,7 +68,7 @@ export default function MyResume() {
                   className="mt-1 mb-3"
                 >
                   <Card.Title className="card-title-resume">
-                    <div className="title">FSc Pre- Engineering</div>
+                    <div className="title mb-2">FSc Pre- Engineering</div>
                     <div className="name">Aspire College Pattoki</div>
                   </Card.Title>
                   <Card.Text className="card-text-resume">
@@ -94,7 +94,7 @@ export default function MyResume() {
                   className="mt-1 mb-3"
                 >
                   <Card.Title className="card-title-resume">
-                    <div className="title">Software Engineer</div>
+                    <div className="title mb-2">Software Engineer</div>
                     <div className="name">CodeHoppers</div>
                   </Card.Title>
                   <Card.Text className="card-text-resume">
@@ -118,11 +118,11 @@ export default function MyResume() {
                   className="mt-1 mb-3"
                 >
                   <Card.Title className="card-title-resume">
-                    <div className="title">Intern as MERN Stack</div>
+                    <div className="title mb-2">Intern as MERN Stack</div>
                     <div className="name">CodeHoppers</div>
                   </Card.Title>
                   <Card.Text className="card-text-resume">
-                    <div className="type">Full-time</div>
+                    <div className="type ">Full-time</div>
                     <div className="duration">2023 -2024</div>
                   </Card.Text>
                 </Card.Body>
