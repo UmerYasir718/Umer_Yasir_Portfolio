@@ -2,12 +2,18 @@
   --body_background: #191919;
   --body_color: white;
   --link_color: white;
-  --resume-border: 3px solid white;
-  --resume-upper-cards: linear-gradient(90deg, #00C9FF 0%, #92FE9D 100%);
-  --resume-upper-cards-text: black;
+  --resume-border: 1px solid white;
+  --resume-upper-cards: linear-gradient(180deg, #4b6cb7 0%, #182848 100%);
+  --resume-upper-cards-text: white;
   --nav-toggle-btn-bg: white;
   --nav-toggle-btn-icon-bg: black;
   --dropDown-border: 3px solid white;
+  --skill_certificate_background: white;
+  --skill_certificate_color: rgb(0, 0, 0);
+  --project-border: 2px solid white;
+  --project_img_shadow: rgba(0, 0, 0, 0.2) 0px 18px 50px -10px;
+  /* --resume-upper-cards: linear-gradient(90deg, #00C9FF 0%, #92FE9D 100%); */
+  /* --resume-upper-cards-text: black; */
 }
 
 /* [data-theme="dark"] {
@@ -26,6 +32,10 @@
   --nav-toggle-btn-bg: black;
   --nav-toggle-btn-icon-bg: white;
   --dropDown-border: 3px solid black;
+  --skill_certificate_background: black;
+  --skill_certificate_color: white;
+  --project-border: 2px solid rgb(0, 0, 0);
+  --project_img_shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
 }
 
 * {
